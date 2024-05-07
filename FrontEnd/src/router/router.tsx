@@ -1,7 +1,7 @@
 import { Suspense, lazy } from "react";
 import { createBrowserRouter } from "react-router-dom";
 
-const Home = lazy(() => import("../pages/Home"));
+const Home = lazy(() => import("../pages/Home/Home"));
 
 const AboutUs = lazy(() => import( "../pages/AboutUs"));
 const ContactUs = lazy(() => import( "../pages/ContactUs"));
