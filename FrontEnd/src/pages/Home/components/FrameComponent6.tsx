@@ -1,4 +1,5 @@
 import { FunctionComponent } from "react";
+import SlashonButton from "./SlashonButton";
 
 const FrameComponent6: FunctionComponent = () => {
   return (
@@ -41,7 +42,8 @@ const FrameComponent6: FunctionComponent = () => {
           </nav>
         </div>
         <div className="w-[148.7px] flex flex-col items-start justify-start pt-[3px] px-0 pb-0 box-border">
-          <button className="cursor-pointer py-[7px] px-[18px] bg-blueviolet-300 self-stretch rounded-2xl overflow-hidden flex flex-row items-start justify-start gap-[4.5px] border-[1.5px] border-solid border-blueviolet-200">
+          <SlashonButton colour={`blueviolet`}/>
+          {/* <button className="cursor-pointer py-[7px] px-[18px] bg-blueviolet-300 self-stretch rounded-2xl overflow-hidden flex flex-row items-start justify-start gap-[4.5px] border-[1.5px] border-solid border-blueviolet-200">
             <div className="ml-[-34.5px] h-[23px] flex flex-col items-start justify-start pt-[22px] px-0 pb-0 box-border">
               <div className="w-[31.5px] h-[31.5px] relative rounded-[50%] bg-blueviolet-200" />
             </div>
@@ -55,7 +57,7 @@ const FrameComponent6: FunctionComponent = () => {
                 src="/vector1.svg"
               />
             </div>
-          </button>
+          </button> */}
         </div>
       </header>
     </section>

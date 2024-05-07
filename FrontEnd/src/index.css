@@ -13,6 +13,16 @@ body {
   border-width: 0;
 }
 
+@keyframes fillButton {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+
 @keyframes marquee-text {
   0% {
     transform: translateX(100%);
