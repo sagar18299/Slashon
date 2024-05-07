@@ -25,7 +25,7 @@ const router = createBrowserRouter([
        
     },
     {
-        path: '/contantus',
+        path: '/contactus',
         element: (
             <Suspense fallback={<div>Loading....</div>}>
 
