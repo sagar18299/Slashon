@@ -65,7 +65,7 @@ const Compositing: FunctionComponent = () => {
               </div>
             </div>
           </div>
-          <div className="h-[526.5px] w-[587.3px] relative shrink-0 max-w-full mq450:h-auto mq450:min-h-[526.5]">
+          {/* <div className="h-[526.5px] w-[587.3px] relative shrink-0 max-w-full mq450:h-auto mq450:min-h-[526.5]">
             <img
               className="relative rounded-17xl w-[587.3px] h-[526.5px]"
               alt=""
@@ -98,7 +98,15 @@ const Compositing: FunctionComponent = () => {
                 />
               </div>
             </div>
-          </div>
+          </div> */}
+          <FrameComponent1
+            maskGroup="/mask-group-3@2x.png"
+            trustTheirProcessTheyreEx="Trust their process…They’re experienced and passionate for their work. I’ve enjoyed working with "
+            onVariousMarketingCampaig=" on various marketing campaigns, but majorly redesigning our brand identity including logo design. Our projects were executed efficiently, keeping in consideration the budget and performance results!"
+            maskGroup1="/mask-group-4@2x.png"
+            ankitMedarwal="Ankit Medarwal"
+            founderMDTheRising={`Founder & MD, The Rising`}
+          />
           <FrameComponent1
             maskGroup="/mask-group-3@2x.png"
             trustTheirProcessTheyreEx="Trust their process…They’re experienced and passionate for their work. I’ve enjoyed working with "

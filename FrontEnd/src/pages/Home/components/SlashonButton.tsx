@@ -15,6 +15,8 @@ function SlashonButton({ colour }: any) {
           overflow: 'hidden',
         }}
       >
+
+      
         <div
           style={{
             position: 'absolute',
