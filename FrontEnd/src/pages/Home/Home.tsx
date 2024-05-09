@@ -195,13 +195,13 @@ const Home: FunctionComponent = () => {
           </div>
         </div>
       </div>
-      <section className="w-[1412px] flex flex-col items-end justify-start pt-0 pb-[172px] pr-5 pl-0 box-border max-w-full mq800:pb-[73px] mq800:box-border mq1350:pb-28 mq1350:box-border">
-        <img
+      <section className="w-[1412px] flex flex-col items-center justify-center pt-0 pb-[172px]  pl-0 box-border max-w-full mq800:pb-[73px] mq800:box-border mq1350:pb-28 mq1350:box-border">
+        {/* <img
           className="w-[1344px] relative rounded-29xl max-h-full overflow-hidden max-w-full z-[1]"
           loading="lazy"
           alt=""
           src="/logomark-1.svg"
-        />
+        /> */}
         <FrameComponent4 />
         <FrameComponent3 />
       </section>
