@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import FrameComponent5 from "./FrameComponent5";
+// import FrameComponent5 from "./FrameComponent5";
 
 const FrameComponent4: FunctionComponent = () => {
   return (

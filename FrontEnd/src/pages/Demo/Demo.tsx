@@ -1,5 +1,6 @@
 // components/Navbar.js
 
+import { useEffect } from "react";
 import FrameComponent3 from "../Home/components/FrameComponent3";
 import FrameComponent4 from "../Home/components/FrameComponent4";
 import FrameComponent6 from "../Home/components/FrameComponent6";
@@ -73,130 +74,247 @@ const MainContent = () => {
     );
 };
 
+
+const Chai = () => {
+  return (
+    <section className="self-stretch flex flex-row items-start justify-center pt-0 pb-[201px] pr-5 pl-[21px] box-border max-w-full text-center text-53xl text-gray-100 font-dm-sans mq800:pb-[131px] mq800:box-border">
+      <div className="w-[1145px] flex flex-row items-start justify-start gap-[106px] max-w-full mq800:gap-[26px] mq1125:flex-wrap mq1125:gap-[53px]">
+        <img
+          className=" md:block sm:hidden w-[481px] relative max-h-full object-cover max-w-full mq1125:flex-1"
+          loading="lazy"
+          alt=""
+          src="/mask-group-7@2x.png"
+        />
+        <div className="flex-1 flex flex-col items-start justify-start pt-[100.1px] px-0 pb-0 box-border min-w-[363px] max-w-full mq450:pt-[65px] mq450:box-border mq450:min-w-full">
+          <div className="self-stretch flex flex-col items-start justify-start gap-[48px] max-w-full mq800:gap-[24px]">
+            <div className="self-stretch flex flex-col items-start justify-start gap-[12px] max-w-full">
+              <div className="self-stretch flex flex-col items-start justify-start max-w-full">
+                <h1 className="m-0 w-[521px] relative text-inherit tracking-[-0.04em] leading-[100%] font-bold font-inherit inline-block max-w-full mq450:text-24xl mq450:leading-[43px] mq800:text-39xl mq800:leading-[58px]">
+                  Let’s have some
+                </h1>
+                <h1 className="m-0 h-[72px] relative text-inherit tracking-[-0.04em] leading-[100%] font-bold font-inherit inline-block z-[1] text-blueviolet-200 mq450:text-24xl mq450:leading-[43px] mq800:text-39xl mq800:leading-[58px]">
+                  <span>Chai Pe Charcha</span>
+                  <span className="text-blueviolet-100">!</span>
+                </h1>
+              </div>
+              <div className="relative text-5xl tracking-[-0.02em] leading-[130.19%] font-medium text-left inline-block max-w-full mq450:text-lgi mq450:leading-[25px]">{`We also don’t mind Coffee & Conversations :P`}</div>
+            </div>
+            <button className="cursor-pointer pt-[11.4px] pb-[16.4px] pr-[22.5px] pl-[167px] bg-blueviolet-300 w-[207.9px] h-[45.7px] rounded-[26.25px] box-border overflow-hidden shrink-0 flex flex-row items-start justify-center gap-[7.5px] border-[1.9px] border-solid border-blueviolet-200 mq450:pl-5 mq450:box-border">
+              <div className="ml-[-187.59999999999857px] flex flex-row items-start justify-start gap-[3.7px]">
+                <div className="flex flex-col items-start justify-start pt-[29px] px-0 pb-0">
+                  <div className="w-[39.4px] h-[39.4px] relative rounded-[50%] bg-blueviolet-200" />
+                </div>
+                <div className="relative text-lg tracking-[-0.02em] leading-[130.32%] font-medium font-dm-sans text-blueviolet-200 text-left whitespace-nowrap">
+                  Let’s Collaborate
+                </div>
+              </div>
+              <div className="flex flex-col items-start justify-start pt-[5.2px] px-0 pb-0">
+                <img
+                  className="hidden sm:block w-[18.4px] h-[12.7px] relative object-contain"
+                  alt=""
+                  src="/vector-9.svg"
+                />
+              </div>
+            </button>
+        </div>
+      </div>
+      </div>
+    </section>
+  );
+}
+         
+
 // components/Footer.js
 
-const Footer = () => {
-    return (
-      <>
-             <section className="w-full h-[576px] rounded-t-29xl bg-blueviolet-200 rounded-b-none overflow-hidden shrink-0 flex flex-col items-end justify-start pt-24 px-24  box-border relative gap-[243.7px] text-left text-lg text-white font-dm-sans">
-              <div className=" h-[199px] flex flex-row items-start justify-start gap-[544.5px]">
-                <div className="h-32 w-[418.5px] flex flex-col items-start justify-start gap-[18px]">
-                  <b className="w-[179px] h-[23px] relative [text-decoration:underline] tracking-[-0.02em] leading-[130.19%] inline-block z-[1]">
-                    hey@slashon.agency
-                  </b>
-                  <b className="w-[418.5px] h-[46px] relative [text-decoration:underline] tracking-[-0.02em] leading-[130.19%] inline-block z-[1]">
-                    1st floor, 264-265, Dr. Annie Besant Rd, Worli, Mumbai, Maharashtra,
-                    400051
-                  </b>
-                  <b className="w-[121px] h-[23px] relative [text-decoration:underline] tracking-[-0.02em] leading-[130.19%] inline-block z-[1]">
-                    +91 61118 12xxx
-                  </b>
-                </div>
-                <div className="h-[199px] w-[285px] flex flex-row items-start justify-start gap-[195px] z-[1] text-center">
-                  <div className="h-[199px] w-[0.8px] flex flex-col items-start justify-start">
-                    <div className="w-[0.8px] h-[199px] flex flex-col items-start justify-start gap-[6px]">
-                      <div className="w-[0.8px] h-[] box-border flex flex-row items-center justify-start py-1.5 px-0 border-b-[0.8px] border-solid border-gray-600">
-                        <b className="h-[23px] w-[52px] relative flex items-center justify-center">
-                          Home
-                        </b>
-                      </div>
-                      <div className="w-[0.8px] h-[] box-border flex flex-row items-center justify-start py-1.5 px-0 border-b-[0.8px] border-solid border-gray-600">
-                        <b className="h-[23px] w-[81px] relative flex items-center justify-center">
-                          About Us
-                        </b>
-                      </div>
-                      <div className="w-[0.8px] h-[] box-border flex flex-row items-center justify-start py-1.5 px-0 border-b-[0.8px] border-solid border-gray-600">
-                        <b className="h-[23px] w-[76px] relative flex items-center justify-center">
-                          Services
-                        </b>
-                      </div>
-                      <div className="w-[0.8px] h-[] box-border flex flex-row items-center justify-start py-1.5 px-0 border-b-[0.8px] border-solid border-gray-600">
-                        <b className="h-[23px] w-[47px] relative flex items-center justify-center">
-                          Work
-                        </b>
-                      </div>
-                      <div className="w-[0.8px] h-[] box-border flex flex-row items-center justify-start py-1.5 px-0 border-b-[0.8px] border-solid border-gray-600">
-                        <b className="h-[23px] w-[99px] relative flex items-center justify-center">
-                          Contact Us
-                        </b>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="h-[76.3px] w-[0.8px] flex flex-col items-start justify-start gap-[6.3px]">
-                    <div className="w-[0.8px] h-[35px] box-border flex flex-row items-start justify-start py-1.5 px-0 relative border-b-[0.8px] border-solid border-gray-600">
-                      <b className="h-[23px] absolute !m-[0] top-[calc(50%_-_11.5px)] right-[-89.2px] inline-block">
-                        Instagram
-                      </b>
-                    </div>
-                    <div className="w-[0.8px] h-[35px] box-border flex flex-row items-start justify-start py-1.5 px-0 relative border-b-[0.8px] border-solid border-gray-600">
-                      <b className="h-[23px] absolute !m-[0] top-[calc(50%_-_11.5px)] right-[-74.2px] inline-block">
-                        LinkedIn
-                      </b>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="w-full h-full absolute !m-[0] top-[0px] right-[0px] bottom-[0px] left-[0px]">
-                {/* <img
-                  className="absolute top-[0px] left-[0px] w-[1440px] h-[615px]"
-                  alt=""
-                  src="/rectangle-47.svg"
-                /> */}
-                <img
-                  className="absolute top-[98.5px] left-[287px] w-[18px] h-[18px] z-[1]"
-                  loading="lazy"
-                  alt=""
-                  src="/-icon-file-copy.svg"
-                />
-                <img
-                  className="absolute top-[203.5px] left-[229px] w-[18px] h-[18px] z-[1]"
-                  loading="lazy"
-                  alt=""
-                  src="/-icon-file-copy.svg"
-                />
-                <img
-                  className="absolute top-[349px] left-[96px] w-[914.1px] h-[212.7px] z-[1]"
-                  loading="lazy"
-                  alt=""
-                  src="/group.svg"
-                />
-              </div>
-              <div className="w-[285.8px] h-[23px] flex flex-row items-start justify-start gap-[11.9px] z-[1]">
-                <b className="h-[23px] w-[135px] relative flex items-center">
-                  © Slashon 2023
-                </b>
-                <div className="h-[14.5px] w-1.5 flex flex-col items-start justify-start pt-[8.5px] px-0 pb-0 box-border">
-                  <div className="w-1.5 h-1.5 relative rounded-[50%] bg-white" />
-                </div>
-                <b className="h-[23px] w-[121px] relative flex items-center">
-                  Privacy Policy
-                </b>
-              </div>
-             </section>
-             
+const ChainTest = () =>{
 
-            
-            </>
+    useEffect(() => {
+        const scrollAnimElements = document.querySelectorAll(
+          "[data-animate-on-scroll]"
+        );
+        const observer = new IntersectionObserver(
+          (entries) => {
+            for (const entry of entries) {
+              if (entry.isIntersecting || entry.intersectionRatio > 0) {
+                const targetElement = entry.target;
+                targetElement.classList.add("animate");
+                observer.unobserve(targetElement);
+              }
+            }
+          },
+          {
+            threshold: 0.15,
+          }
+        );
+    
+        for (let i = 0; i < scrollAnimElements.length; i++) {
+          observer.observe(scrollAnimElements[i]);
+        }
+    
+        return () => {
+          for (let i = 0; i < scrollAnimElements.length; i++) {
+            observer.unobserve(scrollAnimElements[i]);
+          }
+        };
+      }, []);
+    return(
+        <>
+        <section className="self-stretch flex flex-col items-end justify-start pt-0 pb-[180px] pr-1.5 pl-0 box-border min-h-[350px] max-w-full text-left text-53xl text-blueviolet-100 font-dm-sans">
+        <div className="self-stretch h-[80.3px] overflow-hidden shrink-0 flex flex-row items-start justify-start [debug_commit:1de1738] max-w-full">
+          <h1
+            className="m-0 h-[93px] w-[3226px] relative text-inherit tracking-[-0.02em] leading-[129.68%] font-bold font-inherit inline-block whitespace-nowrap [&.animate]:animate-[65s_linear_-32.5s_infinite_normal_forwards_marquee-text] opacity-[1] shrink-0 [debug_commit:1de1738] mq450:text-24xl mq450:leading-[56px] mq800:text-39xl mq800:leading-[75px]"
+            data-animate-on-scroll
+          >
+            LET’S CREATE TOGETHER. LET’S CREATE TOGETHER. LET’S CREATE TOGETHER.
+            LET’S CREATE TOGETHER.
+          </h1>
+        </div>
+        <div className="mr-[-778px] w-[3226px] h-[90px] overflow-hidden shrink-0 flex flex-row items-start justify-start [debug_commit:1de1738] max-w-[225%] z-[1]">
+          <h1
+            className="m-0 h-[93px] flex-1 relative text-inherit tracking-[-0.02em] leading-[129.68%] font-bold font-inherit inline-block whitespace-nowrap [&.animate]:animate-[65s_linear_-32.5s_infinite_normal_forwards_marquee-text] opacity-[1] mq450:text-24xl mq450:leading-[56px] mq800:text-39xl mq800:leading-[75px]"
+            data-animate-on-scroll
+          >
+            LET’S CREATE TOGETHER. LET’S CREATE TOGETHER. LET’S CREATE TOGETHER.
+            LET’S CREATE TOGETHER.
+          </h1>
+        </div>
+      </section>
+        </>
+    )
+}
+
+import { MdOutlineFileCopy } from "react-icons/md";
+import footerLogo from "../../assets/footerLogo.png";
+import { TbPointFilled } from "react-icons/tb";
+import { PiInstagramLogoBold } from "react-icons/pi";
+import { PiLinkedinLogoBold } from "react-icons/pi";
+
+const Footer = () => {
+    const tabs = [
+        {
+            tabName: "Home",
+            pathname: "/",
+        },
+        {
+            tabName: "About Us",
+            pathname: "/about",
+        },
+        {
+            tabName: "Services",
+            pathname: "/services",
+        },
+        {
+            tabName: "Work",
+            pathname: "/work",
+        },
+        {
+            tabName: "Contact Us",
+            pathname: "/contact-us",
+        },
+    ];
+
+    const copyTextToClipboard = (text: string) => {
+        navigator.clipboard.writeText(text);
+    };
+
+    return (
+        <footer className="bg-white">
+            <div className="bg-[#3D4DFF] px-[31px] md:px-[96px] pt-[20px] md:pt-[96px] pb-[13px] rounded-t-[48px]">
+                <div className="flex md:hidden flex-col items-center gap-[5px] mb-[15px]">
+                    <p className="font-f1 font-w4 text-white text-[10.73px] leading-[13.98px] cursor-pointer">
+                        Follow Us on
+                    </p>
+                    <div className="flex gap-2">
+                        <PiInstagramLogoBold color="#ffffff" size={20} />
+                        <PiLinkedinLogoBold color="#ffffff" size={20} />
+                    </div>
+                </div>
+                <div className=" flex justify-between ">
+                    <ul className="space-y-[6px] md:space-y-[18px]  font-f1 font-w4 underline text-white text-[11px] md:text-[18px] leading-[14.32px] md:leading-[23.44px] ">
+                        <li className="flex items-center gap-[13.5px]">
+                            hey@slashon.agency{" "}
+                            <MdOutlineFileCopy
+                                onClick={() =>
+                                    copyTextToClipboard("hey@slashon.agency")
+                                }
+                                className="hidden md:block cursor-pointer"
+                            />
+                        </li>
+                        <li className="w-[90%]">
+                            1st floor, 264-265, Dr. Annie Besant Rd, Worli,{" "}
+                            <br /> Mumbai, Maharashtra, 400051
+                        </li>
+
+                        <li className="flex items-center gap-0 md:gap-[13.5px]">
+                            +91 61118 12xxx{" "}
+                            <MdOutlineFileCopy
+                                onClick={() =>
+                                    copyTextToClipboard("+91 61118 12xxx")
+                                }
+                                className="hidden md:block cursor-pointer"
+                            />
+                        </li>
+                    </ul>
+                    <div className="flex gap-[115px] ">
+                        <ul className="space-y-[6px] md:space-y-[18px]">
+                            {tabs?.map((item) => (
+                                <li
+                                    key={item?.tabName}
+                                    className="font-f1 font-w4  text-white text-[10.73px] md:text-[18px] leading-[14.32px] md:leading-[23.44px] cursor-pointer"
+                                >
+                                    {item?.tabName}
+                                </li>
+                            ))}
+                        </ul>
+                        <ul className="space-y-[6px] md:space-y-[18px] hidden md:block font-f1 font-w4 text-white text-[11px] md:text-[18px] leading-[14.32px] md:leading-[23.44px] cursor-pointer">
+                            <li className="">Instagram</li>
+                            <li>LinkedIn</li>
+                        </ul>
+                    </div>
+                </div>
+                <div className="flex flex-col md:flex-row gap-[12.34px] md:gap-12">
+                    <img
+                        src={footerLogo}
+                        alt="logo"
+                        className="w-full md:w-[70%] h-[69.42px] md:h-[212px] mt-[54px]"
+                    />
+                    <div className="align-self-end flex gap-1 justify-end items-end font-f1 font-w4 text-white text-[18px] leading-[23.44px] cursor-pointer">
+                        <span>© Slashon 2023</span>
+                        <span className="flex items-center gap-1">
+                            <TbPointFilled />
+                            Privacy Policy
+                        </span>
+                    </div>
+                </div>
+                {/* <h2 className=" text-[150px] font-f1 font-w6 text-white ">Slashon</h2> */}
+            </div>
+        </footer>
     );
 };
+
+
+
+
 
 // App.js
 
 const Demo = () => {
     return (
-        <div>
-                <div className="w-full relative bg-white overflow-hidden flex flex-col items-start justify-start pt-12 px-0 pb-0 box-border leading-[normal] tracking-[normal] text-center text-5xl  font-dm-sans">
-      <div className="w-[774px] h-[774px] absolute !m-[0] top-[-229.5px] left-[-481.5px] [filter:blur(576px)] rounded-[50%] bg-greenyellow-200" />
+<>
+<main className="min-h-[calc(100dvh-95.44px)] ">
 
             <FrameComponent6 />
             <HeroSection />
             <MainContent />
-            <Footer />
-
-        </div>
-        
-        </div>
+            <ChainTest/>
+            <Chai/>
+            <Footer /> 
+            </main>
+            </>
     );
 };
 
 export default Demo;
+
+
+
